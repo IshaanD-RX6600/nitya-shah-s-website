@@ -21,7 +21,6 @@ export default function Home() {
             <div className="text-center sm:text-left">
               <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4">Hey, I&apos;m NIGGER Shah.</h1>
               <p className="text-lg sm:text-xl md:text-2xl mb-6">Student Leader. Basketball Lover. Proudly Bi.</p>
-              <Button className="bg-white text-purple-600 hover:bg-purple-100">Get to know me</Button>
             </div>
           </div>
         </div>
