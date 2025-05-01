@@ -19,8 +19,9 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center sm:text-left">
-              <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4">Hey, I&apos;m NIGGER Shah.</h1>
+              <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4">Hey, I&apos;m Nitya Shah.</h1>
               <p className="text-lg sm:text-xl md:text-2xl mb-6">Student Leader. Basketball Lover. Proudly Bi.</p>
+              <Button className="bg-white text-purple-600 hover:bg-purple-100">Get to know me</Button>
             </div>
           </div>
         </div>
@@ -39,7 +40,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">About Nitya</h2>
           <div className="max-w-3xl mx-auto text-lg text-gray-700 space-y-6">
             <p>
-              I&apos;m a proud member of the Student Activity Council at Cameron Heights Collegiate Institute. I believe in creating
+              I&apos;m a proud member of the Student Activity Council at [Your School Name]. I believe in creating
               inclusive spaces for all students—on and off the court.
             </p>
             <p>
@@ -55,9 +56,7 @@ export default function Home() {
         <div className="container px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">My Bi Pride</h2>
           <div className="max-w-3xl mx-auto mb-12 text-center">
-            <p className="text-xl italic mb-8">
-              "Being bisexual is about authenticity, strength, and community. Im a FUCKING NIGGER"
-            </p>
+            <p className="text-xl italic mb-8">"Being bisexual is about authenticity, strength, and community."</p>
           </div>
 
           <div className="mb-16">
@@ -79,7 +78,7 @@ export default function Home() {
               </Card>
               <Card className="p-6">
                 <blockquote className="text-gray-700">
-                  "I've always been open about my sexuality i love dick. I just never made a big deal of it because I didn't want it
+                  "I've always been open about my sexuality. I just never made a big deal of it because I didn't want it
                   to be a big deal."
                   <footer className="mt-2 font-semibold">— Alan Cumming</footer>
                 </blockquote>
@@ -147,10 +146,17 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="p-6">
-              <blockquote className="text-gray-700">
-                <p className="mb-4 text-lg italic">"Nitya lights up every room he enters—with leadership and pride."</p>
-                <footer className="font-medium">— Ishaan </footer>
-              </blockquote>
+              <div className="flex flex-col md:flex-row gap-4 items-center">
+                <div className="relative w-24 h-24 rounded-full overflow-hidden">
+                  <Image src="/gallery-image-1.jpeg" alt="Peer" fill className="object-cover" />
+                </div>
+                <blockquote className="text-gray-700">
+                  <p className="mb-4 text-lg italic">
+                    "Nitya lights up every room he enters—with leadership and pride."
+                  </p>
+                  <footer className="font-medium">— Student Council Member</footer>
+                </blockquote>
+              </div>
             </Card>
             <Card className="p-6">
               <blockquote className="text-gray-700">
@@ -165,7 +171,7 @@ export default function Home() {
                 <p className="mb-4 text-lg italic">
                   "Nitya's leadership has transformed our school's approach to inclusivity."
                 </p>
-                <footer className="font-medium">— Jhonny sins</footer>
+                <footer className="font-medium">— Teacher</footer>
               </blockquote>
             </Card>
             <Card className="p-6">
@@ -173,9 +179,55 @@ export default function Home() {
                 <p className="mb-4 text-lg italic">
                   "His energy and authenticity inspire everyone around him to be their true selves."
                 </p>
-                <footer className="font-medium">— Donald trump</footer>
+                <footer className="font-medium">— Friend</footer>
               </blockquote>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Upcoming Events */}
+      <section className="py-20 bg-white">
+        <div className="container px-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Upcoming Events</h2>
+
+          <div className="max-w-3xl mx-auto">
+            <div className="space-y-6">
+              {[
+                {
+                  title: "Pride Month Assembly",
+                  date: "June 5, 2023",
+                  description: "School-wide celebration of LGBTQ+ pride and diversity.",
+                },
+                {
+                  title: "SAC Leadership Workshop",
+                  date: "June 12, 2023",
+                  description: "Workshop on inclusive leadership practices for student council members.",
+                },
+                {
+                  title: "Basketball Tryouts",
+                  date: "August 15, 2023",
+                  description: "Tryouts for the upcoming basketball season. All skill levels welcome!",
+                },
+                {
+                  title: "Bi Visibility Day Initiative",
+                  date: "September 23, 2023",
+                  description: "Special events and awareness campaign for Bi Visibility Day.",
+                },
+              ].map((event, index) => (
+                <Card key={index} className="p-6">
+                  <div className="flex flex-col md:flex-row md:items-center">
+                    <div className="md:w-1/4 mb-2 md:mb-0">
+                      <p className="text-purple-600 font-semibold">{event.date}</p>
+                    </div>
+                    <div className="md:w-3/4">
+                      <h3 className="text-xl font-semibold mb-2">{event.title}</h3>
+                      <p className="text-gray-600">{event.description}</p>
+                    </div>
+                  </div>
+                </Card>
+              ))}
+            </div>
           </div>
         </div>
       </section>
