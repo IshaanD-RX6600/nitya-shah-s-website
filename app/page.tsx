@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Instagram, Mail, MessageSquare } from "lucide-react"
+import { Instagram, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
@@ -9,18 +9,18 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section with Bisexual Pride Colors */}
-      <section className="relative h-screen flex items-center justify-center bg-gradient-to-r from-pink-400 via-purple-500 to-blue-500">
+      <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-r from-pink-400 via-purple-500 to-blue-500 py-16">
         <div className="absolute inset-0 bg-black/20 z-10"></div>
         <div className="container relative z-20 text-white text-center px-4">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8">
-            <div className="md:w-1/3 flex justify-center">
-              <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-lg glow">
+          <div className="flex flex-col items-center justify-center gap-8">
+            <div className="flex justify-center">
+              <div className="relative w-48 h-48 sm:w-64 sm:h-64 rounded-full overflow-hidden border-4 border-white shadow-lg glow">
                 <Image src="/profile-image.jpeg" alt="Nitya Shah" fill className="object-cover" priority />
               </div>
             </div>
-            <div className="md:w-2/3 text-left">
-              <h1 className="text-4xl md:text-6xl font-bold mb-4">Hey, I&apos;m Nitya Shah.</h1>
-              <p className="text-xl md:text-2xl mb-6">Student Leader. Basketball Lover. Proudly Bi.</p>
+            <div className="text-center sm:text-left">
+              <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4">Hey, I&apos;m NIGGER Shah.</h1>
+              <p className="text-lg sm:text-xl md:text-2xl mb-6">Student Leader. Basketball Lover. Proudly Bi.</p>
               <Button className="bg-white text-purple-600 hover:bg-purple-100">Get to know me</Button>
             </div>
           </div>
@@ -40,7 +40,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">About Nitya</h2>
           <div className="max-w-3xl mx-auto text-lg text-gray-700 space-y-6">
             <p>
-              I&apos;m a proud member of the Student Activity Council at [Your School Name]. I believe in creating
+              I&apos;m a proud member of the Student Activity Council at Cameron Heights Collegiate Institute. I believe in creating
               inclusive spaces for all students—on and off the court.
             </p>
             <p>
@@ -56,7 +56,9 @@ export default function Home() {
         <div className="container px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">My Bi Pride</h2>
           <div className="max-w-3xl mx-auto mb-12 text-center">
-            <p className="text-xl italic mb-8">"Being bisexual is about authenticity, strength, and community. Im a FUCKING NIGGER"</p>
+            <p className="text-xl italic mb-8">
+              "Being bisexual is about authenticity, strength, and community. Im a FUCKING NIGGER"
+            </p>
           </div>
 
           <div className="mb-16">
@@ -78,7 +80,7 @@ export default function Home() {
               </Card>
               <Card className="p-6">
                 <blockquote className="text-gray-700">
-                  "I've always been open about my sexuality. I just never made a big deal of it because I didn't want it
+                  "I've always been open about my sexuality i love dick. I just never made a big deal of it because I didn't want it
                   to be a big deal."
                   <footer className="mt-2 font-semibold">— Alan Cumming</footer>
                 </blockquote>
@@ -113,7 +115,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Gallery</h2>
 
           <Tabs defaultValue="basketball" className="max-w-4xl mx-auto">
-            <TabsList className="grid w-full grid-cols-4">
+            <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4">
               <TabsTrigger value="basketball">Basketball</TabsTrigger>
               <TabsTrigger value="sac">SAC Events</TabsTrigger>
               <TabsTrigger value="pride">Pride</TabsTrigger>
@@ -148,7 +150,7 @@ export default function Home() {
             <Card className="p-6">
               <blockquote className="text-gray-700">
                 <p className="mb-4 text-lg italic">"Nitya lights up every room he enters—with leadership and pride."</p>
-                <footer className="font-medium">— Student Council Member</footer>
+                <footer className="font-medium">— Ishaan </footer>
               </blockquote>
             </Card>
             <Card className="p-6">
@@ -164,7 +166,7 @@ export default function Home() {
                 <p className="mb-4 text-lg italic">
                   "Nitya's leadership has transformed our school's approach to inclusivity."
                 </p>
-                <footer className="font-medium">— Teacher</footer>
+                <footer className="font-medium">— Jhonny sins</footer>
               </blockquote>
             </Card>
             <Card className="p-6">
@@ -172,7 +174,7 @@ export default function Home() {
                 <p className="mb-4 text-lg italic">
                   "His energy and authenticity inspire everyone around him to be their true selves."
                 </p>
-                <footer className="font-medium">— Friend</footer>
+                <footer className="font-medium">— Donald trump</footer>
               </blockquote>
             </Card>
           </div>
@@ -210,7 +212,7 @@ export default function Home() {
               ].map((event, index) => (
                 <Card key={index} className="p-6">
                   <div className="flex flex-col md:flex-row md:items-center">
-                    <div className="md:w-1/4 mb-4 md:mb-0">
+                    <div className="md:w-1/4 mb-2 md:mb-0">
                       <p className="text-purple-600 font-semibold">{event.date}</p>
                     </div>
                     <div className="md:w-3/4">
@@ -231,9 +233,9 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Connect with Me</h2>
 
           <div className="max-w-xl mx-auto text-center">
-            <p className="text-xl mb-8">"Ask Me Anything About Being Bi, SAC, or Basketball!"</p>
+            <p className="text-xl mb-8">"Connect with me to talk about Basketball, SAC, or LGBTQ+ advocacy!"</p>
 
-            <div className="flex flex-col md:flex-row justify-center gap-4 mb-12">
+            <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
               <Button className="bg-white text-purple-600 hover:bg-purple-100 flex items-center gap-2">
                 <Instagram className="h-5 w-5" />
                 Instagram
@@ -241,10 +243,6 @@ export default function Home() {
               <Button className="bg-white text-purple-600 hover:bg-purple-100 flex items-center gap-2">
                 <Mail className="h-5 w-5" />
                 School Email
-              </Button>
-              <Button className="bg-white text-purple-600 hover:bg-purple-100 flex items-center gap-2">
-                <MessageSquare className="h-5 w-5" />
-                Anonymous Q&A
               </Button>
             </div>
           </div>
