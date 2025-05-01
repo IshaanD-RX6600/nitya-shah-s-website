@@ -180,52 +180,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Upcoming Events */}
-      <section className="py-20 bg-white">
-        <div className="container px-4">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Upcoming Events</h2>
-
-          <div className="max-w-3xl mx-auto">
-            <div className="space-y-6">
-              {[
-                {
-                  title: "Pride Month Assembly",
-                  date: "June 5, 2023",
-                  description: "School-wide celebration of LGBTQ+ pride and diversity.",
-                },
-                {
-                  title: "SAC Leadership Workshop",
-                  date: "June 12, 2023",
-                  description: "Workshop on inclusive leadership practices for student council members.",
-                },
-                {
-                  title: "Basketball Tryouts",
-                  date: "August 15, 2023",
-                  description: "Tryouts for the upcoming basketball season. All skill levels welcome!",
-                },
-                {
-                  title: "Bi Visibility Day Initiative",
-                  date: "September 23, 2023",
-                  description: "Special events and awareness campaign for Bi Visibility Day.",
-                },
-              ].map((event, index) => (
-                <Card key={index} className="p-6">
-                  <div className="flex flex-col md:flex-row md:items-center">
-                    <div className="md:w-1/4 mb-2 md:mb-0">
-                      <p className="text-purple-600 font-semibold">{event.date}</p>
-                    </div>
-                    <div className="md:w-3/4">
-                      <h3 className="text-xl font-semibold mb-2">{event.title}</h3>
-                      <p className="text-gray-600">{event.description}</p>
-                    </div>
-                  </div>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Connect */}
       <section className="py-20 bg-gradient-to-r from-pink-400 via-purple-500 to-blue-500 text-white">
         <div className="container px-4">
