@@ -56,7 +56,7 @@ export default function Home() {
         <div className="container px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">My Bi Pride</h2>
           <div className="max-w-3xl mx-auto mb-12 text-center">
-            <p className="text-xl italic mb-8">"Being bisexual is about authenticity, strength, and community."</p>
+            <p className="text-xl italic mb-8">"Being bisexual is about authenticity, strength, and community. Im a FUCKING NIGGER"</p>
           </div>
 
           <div className="mb-16">
