@@ -19,8 +19,8 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center sm:text-left">
-              <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4">Hey, I&apos;m Nitya Shah.</h1>
-              <p className="text-lg sm:text-xl md:text-2xl mb-6">Student Leader. Basketball Lover. Proudly Bi.</p>
+              <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4">Hey, I&apos;m NIGGA BUTTSEX Shah.</h1>
+              <p className="text-lg sm:text-xl md:text-2xl mb-6">Student Leader. Basketball Lover. Proudly Bi. ANd loves penis</p>
               <Button className="bg-white text-purple-600 hover:bg-purple-100">Get to know me</Button>
             </div>
           </div>
@@ -40,7 +40,7 @@ export default function Home() {
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">About Nitya</h2>
           <div className="max-w-3xl mx-auto text-lg text-gray-700 space-y-6">
             <p>
-              I&apos;m a proud member of the Student Activity Council at [Your School Name]. I believe in creating
+              I&apos;m a proud member of the Student Activity Council at Cameron Heights Collegiate Institute. I believe in creating
               inclusive spaces for all students—on and off the court.
             </p>
             <p>
@@ -66,21 +66,21 @@ export default function Home() {
                 <blockquote className="text-gray-700">
                   "I think people are born bisexual and then make subconscious choices based on the pressures of
                   society."
-                  <footer className="mt-2 font-semibold">— Freddie Mercury</footer>
+                  <footer className="mt-2 font-semibold">— Sean Diddy Combs</footer>
                 </blockquote>
               </Card>
               <Card className="p-6">
                 <blockquote className="text-gray-700">
                   "I think people are born bisexual, and it's just that our parents and society kind of veer us off into
                   this feeling of 'Oh, I can't.'"
-                  <footer className="mt-2 font-semibold">— Megan Fox</footer>
+                  <footer className="mt-2 font-semibold">— Jhonny Sins</footer>
                 </blockquote>
               </Card>
               <Card className="p-6">
                 <blockquote className="text-gray-700">
                   "I've always been open about my sexuality. I just never made a big deal of it because I didn't want it
                   to be a big deal."
-                  <footer className="mt-2 font-semibold">— Alan Cumming</footer>
+                  <footer className="mt-2 font-semibold">— Been Cumming</footer>
                 </blockquote>
               </Card>
             </div>
@@ -154,7 +154,7 @@ export default function Home() {
                   <p className="mb-4 text-lg italic">
                     "Nitya lights up every room he enters—with leadership and pride."
                   </p>
-                  <footer className="font-medium">— Student Council Member</footer>
+                  <footer className="font-medium">— Kanye West</footer>
                 </blockquote>
               </div>
             </Card>
@@ -163,7 +163,7 @@ export default function Home() {
                 <p className="mb-4 text-lg italic">
                   "He's the most inclusive person I know. On court, off court—he supports everyone."
                 </p>
-                <footer className="font-medium">— Basketball Teammate</footer>
+                <footer className="font-medium">— Kanye West</footer>
               </blockquote>
             </Card>
             <Card className="p-6">
@@ -171,7 +171,7 @@ export default function Home() {
                 <p className="mb-4 text-lg italic">
                   "Nitya's leadership has transformed our school's approach to inclusivity."
                 </p>
-                <footer className="font-medium">— Teacher</footer>
+                <footer className="font-medium">— Ms Quinney</footer>
               </blockquote>
             </Card>
             <Card className="p-6">
