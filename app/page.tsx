@@ -325,7 +325,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 bg-black text-white text-center">
         <div className="container px-4">
-          <p>© {new Date().getFullYear()} Nitya Shah. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Nitya Shah and Ishaan Dhiman. All rights reserved.</p>
         </div>
       </footer>
     </main>
