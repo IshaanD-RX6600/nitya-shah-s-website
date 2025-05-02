@@ -253,7 +253,7 @@ export default function Home() {
                 <p className="mb-4 text-lg italic">
                   "Nitya demonstrates exceptional leadership qualities and brings positive energy to every project."
                 </p>
-                <footer className="font-medium text-blue-700">— Basketball Coach</footer>
+                <footer className="font-medium text-blue-700">— Ms. Quinney</footer>
               </blockquote>
             </Card>
             <Card className="p-6 shadow-md card-shadow border-none bg-grey-100 border border-grey-200">
@@ -266,7 +266,7 @@ export default function Home() {
                 <p className="mb-4 text-lg italic">
                   "A dedicated student who consistently shows initiative and helps others succeed."
                 </p>
-                <footer className="font-medium text-grey-700">— Math Teacher</footer>
+                <footer className="font-medium text-grey-700">— IB Math Teacher</footer>
               </blockquote>
             </Card>
             <Card className="p-6 shadow-md card-shadow border-none bg-grey-100 border border-grey-200">
@@ -279,7 +279,7 @@ export default function Home() {
                 <p className="mb-4 text-lg italic">
                   "Nitya's technical skills and reliability make him an invaluable member of our Tech Crew."
                 </p>
-                <footer className="font-medium text-grey-700">— Tech Crew Supervisor</footer>
+                <footer className="font-medium text-grey-700">— 2023-2024 DECA executives</footer>
               </blockquote>
             </Card>
             <Card className="p-6 shadow-md card-shadow border-none bg-blue-50 border border-blue-100">
@@ -292,7 +292,7 @@ export default function Home() {
                 <p className="mb-4 text-lg italic">
                   "An excellent team player who inspires others through hard work and dedication in DECA competitions."
                 </p>
-                <footer className="font-medium text-blue-700">— DECA Advisor</footer>
+                <footer className="font-medium text-blue-700">— DECA teacher</footer>
               </blockquote>
             </Card>
           </div>
