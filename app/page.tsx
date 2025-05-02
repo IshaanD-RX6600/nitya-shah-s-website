@@ -37,7 +37,6 @@ export default function Home() {
               <p className="text-lg sm:text-xl md:text-2xl mb-6">
                 Student Leader. Basketball Player. Academic Achiever.
               </p>
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white">View Portfolio</Button>
             </div>
           </div>
         </div>
